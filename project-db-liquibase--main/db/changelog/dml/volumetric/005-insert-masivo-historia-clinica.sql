@@ -26,3 +26,5 @@ UPDATE historia_clinica SET diagnostico = 'Postoperatorio inmediato', observacio
 UPDATE historia_clinica SET diagnostico = 'Alergia al pollo', observaciones = 'Reacción alérgica alimentaria. Cambiar a proteína de salmón.' WHERE id_cita = 32;
 UPDATE historia_clinica SET diagnostico = 'Retirada de espina', observaciones = 'Cuerpo extraño extraído del ojo con éxito. Sin daños estructurales.' WHERE id_cita = 33;
 UPDATE historia_clinica SET diagnostico = 'Control de desarrollo', observaciones = 'Cachorro creciendo sano y en los rangos de peso ideales.' WHERE id_cita = 34;
+
+--rollback empty

@@ -27,3 +27,5 @@ INSERT INTO tratamiento (id_tratamiento, id_historia, descripcion) VALUES
 (32, 26, 'Dieta de exclusión estricta basada en proteína alternativa'),
 (33, 27, 'Gotas antiinflamatorias post-extracción de cuerpo extraño'),
 (34, 28, 'Monitoreo mensual de curvas de crecimiento y desarrollo general');
+
+--rollback empty
