@@ -9,3 +9,4 @@ INSERT INTO medicamento (id_medicamento, nombre, dosis) VALUES
 (14, 'Pipeta Fiprokill', 'Aplicación directa sobre el lomo una vez al mes'),
 (15, 'Complejo B Inyectable', '0.5ml vía intramuscular cada 48 horas');
 
+--rollback empty

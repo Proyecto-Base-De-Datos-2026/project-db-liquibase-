@@ -16,3 +16,4 @@ INSERT INTO tratamiento_medicamento (id_tratamiento, id_medicamento) VALUES
 (31, 1),  -- Post-esterilización usó Meloxicam analgésico
 (33, 12); -- Retirada de espina usó Tobramicina Gotas
 
+--rollback empty

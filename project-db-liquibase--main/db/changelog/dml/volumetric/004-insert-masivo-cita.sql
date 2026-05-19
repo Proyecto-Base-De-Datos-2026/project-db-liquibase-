@@ -27,3 +27,5 @@ INSERT INTO cita (id_cita, id_mascota, id_veterinario, fecha, motivo, estado) VA
 (32, 32, 14, '2026-05-16 15:30:00', 'Alergias alimentarias', 'completada'),
 (33, 33, 13, '2026-05-16 16:30:00', 'Cuerpo extraño en ojo izquierdo', 'completada'),
 (34, 34, 10, '2026-05-16 17:00:00', 'Vacunación y control de peso', 'completada');
+
+--rollback empty

@@ -8,3 +8,5 @@ INSERT INTO veterinario (id_veterinario, nombre, especialidad, correo, activo) V
 (13, 'Dra. Patricia Delgado', 'ortopedia', 'patricia.vet@email.com', TRUE),
 (14, 'Dr. Jorge Eliécer plazas', 'odontología', 'jorge.vet@email.com', TRUE),
 (15, 'Dra. Clara Inés Murcia', 'otro', 'clara.vet@email.com', TRUE);
+
+--rollback empty

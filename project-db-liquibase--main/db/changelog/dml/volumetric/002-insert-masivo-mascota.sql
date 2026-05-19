@@ -27,3 +27,5 @@ INSERT INTO mascota (id_mascota, id_dueno, nombre, especie, raza, edad) VALUES
 (32, 32, 'Pepe', 'perro', 'Schnauzer', 5),
 (33, 33, 'Nina', 'gato', 'Criollo', 3),
 (34, 34, 'Rocco', 'perro', 'Pinscher', 4);
+
+--rollback empty

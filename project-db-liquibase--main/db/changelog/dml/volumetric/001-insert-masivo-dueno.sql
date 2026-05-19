@@ -30,3 +30,5 @@ INSERT INTO dueno (id_dueno, nombre, telefono, correo) VALUES
 (32, 'Álvaro Humberto Méndez', '3181115522', 'alvaro.mendez@email.com'),
 (33, 'Adriana Lucía Bonilla', '3198884477', 'adriana.bonilla@email.com'),
 (34, 'Hernando de Jesús Gómez', '3206661144', 'hernando.gomez@email.com');
+
+--rollback empty

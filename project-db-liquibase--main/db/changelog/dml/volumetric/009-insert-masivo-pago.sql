@@ -28,3 +28,4 @@ INSERT INTO pago (id_pago, id_cita, monto, fecha_pago, metodo_pago) VALUES
 (33, 33, 95.00, '2026-05-16', 'tarjeta_debito'),
 (34, 34, 50.00, '2026-05-16', 'efectivo');
 
+--rollback empty
