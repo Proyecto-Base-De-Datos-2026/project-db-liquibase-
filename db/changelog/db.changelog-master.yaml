@@ -1,0 +1,76 @@
+databaseChangeLog:
+  # =========================================================================
+  # 1. CONSTRUCCIÓN DE LA ESTRUCTURA (DDL)
+  # =========================================================================
+  - include:
+      file: db/changelog/ddl/001-create-dueno.sql
+  - include:
+      file: db/changelog/ddl/002-create-mascota.sql
+  - include:
+      file: db/changelog/ddl/003-create-veterinario.sql
+  - include:
+      file: db/changelog/ddl/004-create-cita.sql
+  - include:
+      file: db/changelog/ddl/005-create-historia-clinica.sql
+  - include:
+      file: db/changelog/ddl/006-create-tratamiento.sql
+  - include:
+      file: db/changelog/ddl/007-create-medicamento.sql
+  - include:
+      file: db/changelog/ddl/008-create-tratamiento-medicamento.sql
+  - include:
+      file: db/changelog/ddl/009-create-pago.sql
+
+  # =========================================================================
+  # 2. OBJETOS PROGRAMABLES POR INTEGRANTE
+  # =========================================================================
+  - include:
+      file: db/changelog/ddl/010-create-funciones.sql
+  - include:
+      file: db/changelog/ddl/011-create-procedimientos.sql
+  - include:
+      file: db/changelog/ddl/012-create-triggers.sql
+
+  # =========================================================================
+  # 3. CARGA DE DATOS CANÓNICOS (DML CANONICAL)
+  # =========================================================================
+  - include:
+      file: db/changelog/dml/canonical/001-insert-dueno.sql
+  - include:
+      file: db/changelog/dml/canonical/002-insert-mascota.sql
+  - include:
+      file: db/changelog/dml/canonical/003-insert-veterinario.sql
+  - include:
+      file: db/changelog/dml/canonical/004-insert-cita.sql
+  - include:
+      file: db/changelog/dml/canonical/005-insert-historia-clinica.sql
+  - include:
+      file: db/changelog/dml/canonical/006-insert-tratamiento.sql
+  - include:
+      file: db/changelog/dml/canonical/007-insert-medicamento.sql
+  - include:
+      file: db/changelog/dml/canonical/008-insert-tratamiento-medicamento.sql
+  - include:
+      file: db/changelog/dml/canonical/009-insert-pago.sql
+
+  # =========================================================================
+  # 4. CARGA DE DATOS VOLUMÉTRICOS (DML VOLUMETRIC)
+  # =========================================================================
+  - include:
+      file: db/changelog/dml/volumetric/001-insert-masivo-dueno.sql
+  - include:
+      file: db/changelog/dml/volumetric/002-insert-masivo-mascota.sql
+  - include:
+      file: db/changelog/dml/volumetric/003-insert-masivo-veterinario.sql
+  - include:
+      file: db/changelog/dml/volumetric/004-insert-masivo-cita.sql
+  - include:
+      file: db/changelog/dml/volumetric/005-insert-masivo-historia-clinica.sql
+  - include:
+      file: db/changelog/dml/volumetric/006-insert-masivo-tratamiento.sql
+  - include:
+      file: db/changelog/dml/volumetric/007-insert-masivo-medicamento.sql
+  - include:
+      file: db/changelog/dml/volumetric/008-insert-masivo-tratamiento-medicamento.sql
+  - include:
+      file: db/changelog/dml/volumetric/009-insert-masivo-pago.sql
