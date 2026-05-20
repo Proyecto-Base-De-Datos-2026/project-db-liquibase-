@@ -1,0 +1,36 @@
+version: '3.8'
+
+services:
+  postgres-db:
+    image: postgres:15-alpine
+    container_name: veterinaria-postgres
+    environment:
+      POSTGRES_DB: veterinaria_db
+      POSTGRES_USER: carlos_admin
+      POSTGRES_PASSWORD: MasterPassword2026
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - vete-network
+    restart: always
+
+  liquibase:
+    image: liquibase/liquibase:4.24
+    container_name: veterinaria-liquibase
+    volumes:
+      - .:/liquibase/workspace
+    working_dir: /liquibase/workspace
+    command: --changelog-file=db/changelog-master.yaml --url=jdbc:postgresql://postgres-db:5432/veterinaria_db --username=carlos_admin --password=MasterPassword2026 update
+    depends_on:
+      - postgres-db
+    networks:
+      - vete-network
+
+volumes:
+  postgres_data:
+
+networks:
+  vete-network:
+    driver: bridge
