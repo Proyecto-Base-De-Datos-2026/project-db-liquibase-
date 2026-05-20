@@ -16,7 +16,7 @@ LEFT JOIN pago p ON c.id_cita = p.id_cita
 ORDER BY c.fecha DESC;
 
 -- =========================================================================
--- 👤 INTEGRANTE 2: [Escribir aquí el Nombre del Integrante 2]
+-- 👤 INTEGRANTE 2: Juan Jose Guzman Bohorquez
 -- CONSULTA AVANZADA CON JOIN DE MÁS DE 5 TABLAS (UNE 6 TABLAS)
 -- Pregunta: ¿Qué transacciones están vinculadas a qué pacientes y médicos?
 -- =========================================================================
@@ -35,7 +35,7 @@ INNER JOIN veterinario v ON c.id_veterinario = v.id_veterinario
 INNER JOIN historia_clinica hc ON hc.id_cita = c.id_cita;
 
 -- =========================================================================
--- 👤 INTEGRANTE 3: [Escribir aquí el Nombre del Integrante 4]
+-- 👤 INTEGRANTE 3: Marlos Alexis Manjarres
 -- CONSULTA AVANZADA CON JOIN DE MÁS DE 5 TABLAS (UNE 7 TABLAS)
 -- Pregunta: ¿Qué médicos generan mayores ingresos según tratamientos aplicados?
 -- =========================================================================

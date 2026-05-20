@@ -1,5 +1,5 @@
 -- =========================================================================
--- 👤 INTEGRANTE 4:
+-- 👤 INTEGRANTE 4:Rosfeller David Castillo
 -- CONSULTA AVANZADA CON JOIN DE MÁS DE 5 TABLAS (UNE 8 TABLAS)
 -- Pregunta: ¿Cuál es la trazabilidad médica completa de los pacientes (Propietario,
 --           Médico, Diagnóstico, Tratamiento y Medicamentos recetados)?

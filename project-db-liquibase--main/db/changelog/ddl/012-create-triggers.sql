@@ -22,7 +22,7 @@ EXECUTE FUNCTION fn_tr_alerta_nueva_cita();
 
 
 -- =========================================================================
--- INTEGRANTE 2: Integrante_2_Nombre
+-- INTEGRANTE 2: Juan Jose Guzman Bohorquez
 -- OBJETIVO: Evita que se registren mascotas con edad negativa o exagerada
 -- =========================================================================
 CREATE FUNCTION fn_tr_validar_edad_mascota()
@@ -44,7 +44,7 @@ EXECUTE FUNCTION fn_tr_validar_edad_mascota();
 
 
 -- =========================================================================
--- INTEGRANTE 3: Integrante_3_Nombre
+-- INTEGRANTE 3: Marlos Alexis Manjarres
 -- OBJETIVO: Crea un historial clínico vacío automáticamente cuando se registra una nueva cita
 -- =========================================================================
 CREATE FUNCTION fn_tr_crear_historial_automatico()
@@ -65,7 +65,7 @@ EXECUTE FUNCTION fn_tr_crear_historial_automatico();
 
 
 -- =========================================================================
--- INTEGRANTE 4: Integrante_4_Nombre
+-- INTEGRANTE 4: Rosfeller David Castillo
 -- OBJETIVO: Auditoría básica que registra la fecha en que se actualizó un pago
 -- =========================================================================
 CREATE FUNCTION fn_tr_auditoria_pagos()

@@ -2,7 +2,7 @@
 --changeset grupo-ingenieria:crear-funciones-sistema endDelimiter:$$
 
 -- =========================================================================
--- INTEGRANTE 1: Carlos Andrés Zuluaga Acuña
+-- INTEGRANTE 1: CarlosA ndrés Zuluaga Acuña
 -- OBJETIVO: Calcula el dinero total que un dueño ha invertido en sus mascotas
 -- =========================================================================
 CREATE FUNCTION fn_total_gastado_dueno(p_id_dueno INT) 
@@ -23,7 +23,7 @@ END;
 $$;
 
 -- =========================================================================
--- INTEGRANTE 2: Integrante_2_Nombre
+-- INTEGRANTE 2: Juan Jose Guzman Bohorquez
 -- OBJETIVO: Cuenta cuántas citas completadas tiene una mascota específica
 -- =========================================================================
 CREATE FUNCTION fn_contar_citas_mascota(p_id_mascota INT)
@@ -42,7 +42,7 @@ END;
 $$;
 
 -- =========================================================================
--- INTEGRANTE 3: Integrante_3_Nombre
+-- INTEGRANTE 3: Marlos Alexis Manjarres
 -- OBJETIVO: Obtiene el nombre del veterinario que más citas ha atendido
 -- =========================================================================
 CREATE FUNCTION fn_veterinario_mas_activo()
@@ -65,7 +65,7 @@ END;
 $$;
 
 -- =========================================================================
--- INTEGRANTE 4: Integrante_4_Nombre
+-- INTEGRANTE 4: Rosfeller David Castillo
 -- OBJETIVO: Calcula la edad promedio de las mascotas de una especie dada
 -- =========================================================================
 CREATE FUNCTION fn_edad_promedio_especie(p_especie VARCHAR(50))
