@@ -13,7 +13,7 @@ INNER JOIN dueno d ON m.id_dueno = d.id_dueno
 ORDER BY d.nombre ASC;
 
 -- =========================================================================
---  INTEGRANTE 1: [Marlon alexis manjarres polo]
+--  INTEGRANTE 1: [Carlos Andres Zuluaga Acuña]
 -- =========================================================================
 SELECT 
     med.nombre AS farmaco, 
