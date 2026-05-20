@@ -1,6 +1,4 @@
-INSERT INTO dueno (nombre, telefono, correo) VALUES
-
-('Carlos Pérez',    '3101234567', 'carlos@gmail.com'),
-('María López',     '3209876543', 'maria@hotmail.com'),
-('Juan Rodríguez',  '3157654321', 'juan@gmail.com'),
-('Ana Martínez',    '3001112233', 'ana@yahoo.com');
+INSERT INTO dueno (id_dueno, nombre, telefono, correo) VALUES
+(1, 'Carlos Andrés Zuluaga Acuña', '3151234567', 'carlos@email.com'),
+(2, 'Laura Camila Ospina', '3209876543', 'laura@email.com'),
+(3, 'Juan Fernando Hoyos', '3114567890', 'juan@email.com');
