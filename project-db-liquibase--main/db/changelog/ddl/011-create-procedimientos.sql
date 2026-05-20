@@ -16,7 +16,7 @@ END;
 $$;
 
 -- =========================================================================
--- INTEGRANTE 2: Integrante_2_Nombre
+-- INTEGRANTE 2: Juan Jose Guzman Bohorquez
 -- OBJETIVO: Registra una nueva mascota en el sistema
 -- =========================================================================
 CREATE PROCEDURE pr_registrar_mascota(
@@ -35,7 +35,7 @@ END;
 $$;
 
 -- =========================================================================
--- INTEGRANTE 3: Integrante_3_Nombre
+-- INTEGRANTE 3: Marlos Alexis Manjarres
 -- OBJETIVO: Actualiza el teléfono y correo de un dueño existente
 -- =========================================================================
 CREATE PROCEDURE pr_actualizar_contacto_dueno(
@@ -53,7 +53,7 @@ END;
 $$;
 
 -- =========================================================================
--- INTEGRANTE 4: Integrante_4_Nombre
+-- INTEGRANTE 4: Rosfeller David Castillo
 -- OBJETIVO: Modifica el estado de un pago (ej. de 'pendiente' a 'completado')
 -- =========================================================================
 CREATE PROCEDURE pr_cambiar_estado_pago(
