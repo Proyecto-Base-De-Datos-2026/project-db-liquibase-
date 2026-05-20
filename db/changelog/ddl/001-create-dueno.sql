@@ -1,4 +1,3 @@
-
 CREATE TABLE dueno (
     id_dueno   SERIAL         PRIMARY KEY,
     nombre     VARCHAR(100)   NOT NULL,
